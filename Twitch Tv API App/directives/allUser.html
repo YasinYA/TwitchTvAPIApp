@@ -1,0 +1,19 @@
+<div class="row">
+	<div class="col-md-12">
+	  <div>
+	    <input type="text" ng-model="search" class="form-control searchAllUsers" placeholder="Search..."/>
+	  </div><!-- /input-group -->
+	</div><!-- /.col-lg-6 -->
+</div><!-- /.row -->
+
+<ul class="ul" ng-repeat="streamer in userData | filter:search">
+	<li>
+		<div class="well">
+		<div class="userLogo">
+		  <img class="img-rounded image" ng-src="{{ streamer.logo || image }}"/>
+		</div>
+		<h3 class="username"><span id="streamerName"><a target="_blank" href="http://twitch.tv/{{ streamer.display_name }}">{{ streamer.display_name }}</a></span></h3>
+		<p><span class="info">{{ streamer.streams.stream.channel.status.trunc(28) || streamer.offlineuser}}</span></p>
+		</div>
+	</li>
+</ul>

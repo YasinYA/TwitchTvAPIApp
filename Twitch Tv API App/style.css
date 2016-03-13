@@ -1,0 +1,118 @@
+body {
+    background: #666;
+}
+
+h3 {
+    display: inline-block;
+    width: 150px;
+}
+
+h3 #streamerName a {
+    color: #444 !important;
+    margin-left: 20px;
+}
+
+h3 #streamerName a:hover {
+    text-decoration: none ;
+    color: #666 !important;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.contentContainer {
+    
+}
+
+.contentWrapper {
+    width: 400px;
+    margin: 50px auto;   
+}
+
+.innerContent {
+    
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 20px #333;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.statusBar {
+    background: #888;
+    border-radius: 5px 5px 0 0;
+}
+
+.statusBar li  {
+    width: 133px !important;
+}
+
+.statusBar li a {
+    color: #eee;
+}
+
+.statusBar li a:hover {
+    color: #222;
+    background: #444;
+}
+
+.statusBar li a:active {
+    color: #222;
+    background: #444;
+}
+
+.result {
+    background: #888;
+}
+
+.row {
+    margin-top: 2px !important;
+}
+
+.searchAllUsers {
+    width: 399px !important;
+}
+
+.well {
+    position: relative;
+    background: #999;
+    border: none;
+    margin-top: 3px;
+}
+
+.well:hover {
+    box-shadow: 0 0 5px #000;
+}
+
+.userLogo {
+    display: inline-block;
+}
+
+.info {
+    margin-left: 70px;
+}
+
+.statusIcons {
+    position: absolute;
+    bottom: 50%;
+    left: 90%;
+}
+
+.green {
+    color: #009933 !important;
+}
+
+.grey {
+    color: #009933 !important;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+}
+
+.ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
